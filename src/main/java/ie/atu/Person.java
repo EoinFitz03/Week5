@@ -1,5 +1,6 @@
 package ie.atu;
 
+
 public class Person {
 
     public String getFirstName() {
@@ -33,11 +34,6 @@ public class Person {
     }
 
 
-
-
-
-
-
     public Person() {
     this.firstName="";
     this.lastName="";
@@ -48,5 +44,9 @@ public class Person {
 
     private String lastName;
     private int age;
+
+    public void displayInfo(){
+        System.out.println("Name: "+firstName + " "+ lastName + ". age" + age );
+    }
 }
 
